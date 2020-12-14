@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonAddNewSeatArrangement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Dodaj novi raspored sjedala" />
+
+        <EditText
+            android:id="@+id/editCinemaName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:inputType="text" />
+
+        <RadioButton
+            android:id="@+id/radio3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moguće je prikazivati fimlove u 3D-u"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/radioNot3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nije moguće prikazivati filmove u 3D-u"
+            android:checked="false"/>
+
+        <HorizontalScrollView
+            android:id="@+id/layoutSeat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:id="@+id/buttonAddNewCinema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Ažuriraj" />
+
+
+
+    </LinearLayout>
+</ScrollView>

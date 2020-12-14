@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "440598599328",
+    "firebase_url": "https://movieticketingsystem-ccd78.firebaseio.com",
+    "project_id": "movieticketingsystem-ccd78",
+    "storage_bucket": "movieticketingsystem-ccd78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440598599328:android:cd0bf1854d41d5ddeb1bc5",
+        "android_client_info": {
+          "package_name": "com.ursic.nikola.movieticketingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440598599328-pe10jfbnr75jn6fe69srpqng5sj0gcib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ursic.nikola.movieticketingsystem",
+            "certificate_hash": "8a02a4539832cd225472b72d24bbccb650feb628"
+          }
+        },
+        {
+          "client_id": "440598599328-3h3dng7oe2chef9dsmlt57q8r612k1sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUMoE-sm27nSt6sVeCC1r9lZm0uu_bIWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440598599328-3h3dng7oe2chef9dsmlt57q8r612k1sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

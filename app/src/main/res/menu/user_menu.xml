@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/movie_display"
+            android:icon="@drawable/ic_movie_display"
+            android:title="Projekcije" />
+
+        <item
+            android:id="@+id/tickets"
+            android:icon="@drawable/ic_tickets"
+            android:title="Rezervacije" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Postavke" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/ic_sign_out"
+                android:title="Odjava" />
+        </menu>
+    </item>
+
+</menu>

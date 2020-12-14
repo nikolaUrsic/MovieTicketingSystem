@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textMovie"
+            android:text="Film:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp" />
+
+        <EditText
+            android:id="@+id/editMovieName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:inputType="text" />
+
+        <ListView
+            android:id="@+id/moviesListView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:nestedScrollingEnabled="true" />
+
+        <Button
+            android:id="@+id/buttonChooseCinema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Odaberi kino dvoranu" />
+
+        <RadioButton
+            android:id="@+id/radio3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3D projekcija"
+            android:checked="false" />
+
+        <TextView
+            android:id="@+id/textCinema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Kino dvorana nije odabrana"/>
+
+        <Button
+            android:id="@+id/buttonDateOfBeginning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Odaberi datum prikaza filma" />
+
+        <TextView
+            android:id="@+id/textDateOfBeginning"
+            android:text="Datum početka nije odabran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/buttonTimeOfBeginning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Odaberi vrijeme prikaza filma" />
+
+        <TextView
+            android:id="@+id/textTimeOfBeginning"
+            android:text="Vrijeme početka nije odabrano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Dalje" />
+
+
+
+    </LinearLayout>
+</ScrollView>

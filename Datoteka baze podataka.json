@@ -1,0 +1,1204 @@
+{
+  "Admins" : {
+    "-M2NuWm8NAl6MJ1x_pHl" : {
+      "email" : "admin.admin@gmail.com",
+      "id" : "-M2NuWm8NAl6MJ1x_pHl",
+      "passwordInHashFormat" : "5f4dcc3b5aa765d61d8327deb882cf99",
+      "username" : "Admin1"
+    }
+  },
+  "Cinemas" : {
+    "-M76vInvpMkubra77UVN" : {
+      "id" : "-M76vInvpMkubra77UVN",
+      "name" : "Dvorana Visia",
+      "numberOfSeats" : 12,
+      "posibilityOf3D" : true,
+      "seatArrangement" : "//UU_UU//UU_UU//UU_UU/"
+    },
+    "-M93P6zdch5vyfMDmmIN" : {
+      "id" : "-M93P6zdch5vyfMDmmIN",
+      "name" : "Kino Slavica",
+      "numberOfSeats" : 36,
+      "posibilityOf3D" : false,
+      "seatArrangement" : "/UUUUUUUU/UUUUUUUU/UUUUUUUU/UUU__UUU/UUU__UUU/"
+    },
+    "-M93PTvyw3JqtuTODlgS" : {
+      "id" : "-M93PTvyw3JqtuTODlgS",
+      "name" : "Kino Sloboda",
+      "numberOfSeats" : 64,
+      "posibilityOf3D" : false,
+      "seatArrangement" : "/UUUUUUUUUUUUUUUU/UUUUUUUUUUUUUUUU/UUUUUUUUUUUUUUUU/UUUUUUUUUUUUUUUU/"
+    },
+    "-M93TG37kou3znHHATZP" : {
+      "id" : "-M93TG37kou3znHHATZP",
+      "name" : "Kino Jadran",
+      "numberOfSeats" : 26,
+      "posibilityOf3D" : false,
+      "seatArrangement" : "/UUUUUUU/UUUUUUU/UUU_UUU/UUU_UUU/"
+    }
+  },
+  "Employees" : {
+    "-M76v-U0VYzNBwEBNX23" : {
+      "email" : "pero.peric@hotmail.com",
+      "id" : "-M76v-U0VYzNBwEBNX23",
+      "listOfCinemasIds" : [ "-M76vInvpMkubra77UVN", "-M93P6zdch5vyfMDmmIN", "-M93PTvyw3JqtuTODlgS", "-M93TG37kou3znHHATZP" ],
+      "name" : "Pero",
+      "numberOfTicketsCharged" : 19,
+      "numberOfTicketsStamped" : 20,
+      "passwordInHashFormat" : "5f4dcc3b5aa765d61d8327deb882cf99",
+      "surname" : "Perić",
+      "username" : "Pero_Perić"
+    },
+    "-M76v3l0IJV6hChtTZfD" : {
+      "email" : "mato.matic@hotmail.com",
+      "id" : "-M76v3l0IJV6hChtTZfD",
+      "listOfCinemasIds" : [ "-M76vInvpMkubra77UVN", "-M93PTvyw3JqtuTODlgS", "-M93TG37kou3znHHATZP" ],
+      "name" : "Mato",
+      "numberOfTicketsCharged" : 8,
+      "numberOfTicketsStamped" : 11,
+      "passwordInHashFormat" : "5f4dcc3b5aa765d61d8327deb882cf99",
+      "surname" : "Matić",
+      "username" : "Mato_Matić"
+    },
+    "-M76v8_U1mbjVagYOHDM" : {
+      "email" : "ivo.ivic@hotmail.com",
+      "id" : "-M76v8_U1mbjVagYOHDM",
+      "listOfCinemasIds" : [ "-M76vInvpMkubra77UVN", "-M93P6zdch5vyfMDmmIN", "-M93PTvyw3JqtuTODlgS", "-M93TG37kou3znHHATZP" ],
+      "name" : "Ivo",
+      "numberOfTicketsCharged" : 4,
+      "numberOfTicketsStamped" : 21,
+      "passwordInHashFormat" : "5f4dcc3b5aa765d61d8327deb882cf99",
+      "surname" : "Ivić",
+      "username" : "Ivo_Ivić"
+    },
+    "-M93OPcUAyUKd9Y9h6QQ" : {
+      "email" : "toni.tonic@hotmail.com",
+      "id" : "-M93OPcUAyUKd9Y9h6QQ",
+      "listOfCinemasIds" : [ "-M76vInvpMkubra77UVN", "-M93P6zdch5vyfMDmmIN", "-M93PTvyw3JqtuTODlgS", "-M93TG37kou3znHHATZP" ],
+      "name" : "Toni",
+      "numberOfTicketsCharged" : 9,
+      "numberOfTicketsStamped" : 7,
+      "passwordInHashFormat" : "5f4dcc3b5aa765d61d8327deb882cf99",
+      "surname" : "Tonić",
+      "username" : "Toni_Tonić"
+    },
+    "-M93SlUU7xtW2T5eeP0Z" : {
+      "email" : "frano.franic@hotmail.com",
+      "id" : "-M93SlUU7xtW2T5eeP0Z",
+      "listOfCinemasIds" : [ "-M76vInvpMkubra77UVN", "-M93P6zdch5vyfMDmmIN", "-M93PTvyw3JqtuTODlgS", "-M93TG37kou3znHHATZP" ],
+      "name" : "Frano",
+      "numberOfTicketsCharged" : 6,
+      "numberOfTicketsStamped" : 5,
+      "passwordInHashFormat" : "5f4dcc3b5aa765d61d8327deb882cf99",
+      "surname" : "Franić",
+      "username" : "Frano_Franić"
+    }
+  },
+  "MovieDisplays" : {
+    "-M93Xu-sAE8wpBiBvjkE" : {
+      "cinemaName" : "Dvorana Visia",
+      "dateTimeOfBeginning" : {
+        "date" : 20,
+        "day" : 0,
+        "hours" : 21,
+        "minutes" : 30,
+        "month" : 5,
+        "seconds" : 9,
+        "time" : 61550829009522,
+        "timezoneOffset" : -60,
+        "year" : 2020
+      },
+      "deleted" : false,
+      "id" : "-M93Xu-sAE8wpBiBvjkE",
+      "idCinema" : "-M76vInvpMkubra77UVN",
+      "idMovie" : "-M93UmiWgxPBcxKaPswl",
+      "is3D" : true,
+      "listOfTicketsIds" : [ "-M93YAFMmXOrKffEwM6g", "-M93YAFegt-cv0h5erjE", "-M93YAFlPDm_m1lu7AuU", "-M93YAFtdU4O2Wf7fE1Q", "-M93YAG-BwN0f0ruBuu-", "-M93YAG5JAQwJe_Sx6RL", "-M93YAGBifX5rjWCDZKg", "-M93YAGHuYX0epIZI1Sp", "-M93YAGMhYy1sQOuU8LB", "-M93YAGShWUVZCiULPu8", "-M93YAGZXH7pT2mSkyY6", "-M93YAGei5j1JolXxTTe" ],
+      "movieName" : "Bilo jednom u Hollywoodu"
+    },
+    "-M93YGOuEz3xqx0fWwyg" : {
+      "cinemaName" : "Kino Sloboda",
+      "dateTimeOfBeginning" : {
+        "date" : 19,
+        "day" : 6,
+        "hours" : 20,
+        "minutes" : 30,
+        "month" : 5,
+        "seconds" : 19,
+        "time" : 61550739019269,
+        "timezoneOffset" : -60,
+        "year" : 2020
+      },
+      "deleted" : false,
+      "id" : "-M93YGOuEz3xqx0fWwyg",
+      "idCinema" : "-M93PTvyw3JqtuTODlgS",
+      "idMovie" : "-M93VLVQaj1fYK2aNMvh",
+      "is3D" : false,
+      "listOfTicketsIds" : [ "-M93YIJrKi_U1kFBPExI", "-M93YIJx-BvAbfcW6vFS", "-M93YIK26zen2LwV1Aug", "-M93YIK7WeQb90tUgTrB", "-M93YIKCL2eJjMEHaDbd", "-M93YIKI2lA7n0eMs0vs", "-M93YIKMK-LZhPgabh73", "-M93YIKRc0s6xS1Dg052", "-M93YIKUSJpsySIAwSgc", "-M93YIKYf5ex9WdBrOPw", "-M93YIKcL97_K_0QYqDR", "-M93YIKfV7GzXBPOy_o0", "-M93YIKjOJOY3yDKIm-f", "-M93YIKn5eWQYOSepoH2", "-M93YIKrZYjYCUjk2KUj", "-M93YIKuyU7FRVrQ0Y3I", "-M93YIKx_UKZpiH99v6f", "-M93YIL0KHnbeIpv1B-1", "-M93YIL3gdIXevajKxeO", "-M93YIL517gTRKv6fiWA", "-M93YIL8PmdipAw5_WzW", "-M93YILB6XD0S7JmodUi", "-M93YILD9aoFVrKwp9Ul", "-M93YILGTWhhh3RVtjqT", "-M93YILI4nknkPXk0YMu", "-M93YILKfEcVlpAMnjjX", "-M93YILMUiA7sN1jyjqD", "-M93YILO7l118mZzgfAz", "-M93YILQ92sbavUD6IxH", "-M93YILT9efBe15qd3Ea", "-M93YILVKaKLvBakL2Ip", "-M93YILXX9GkcxP37F0K", "-M93YILZD1Ax3p6rUIww", "-M93YILaB_WPtn1PDeNt", "-M93YILcK6oLNQQI68wo", "-M93YILdM1_pima3T5d6", "-M93YILf1xyrpEtIFf9j", "-M93YILgkORGewdKcmSG", "-M93YILhiXoy7iR6nSrQ", "-M93YILi5Qap02I3Hii8", "-M93YILkUXfhR5-DnkzY", "-M93YILl4fseURwkcxeT", "-M93YILnhUfHOyCte1VN", "-M93YILo28GV64fRZSf1", "-M93YILp0kiEhvKS6Cqx", "-M93YILqkI4PsC9nATz_", "-M93YILrfHB4v0d9XbsP", "-M93YILtRDZ0-wg2XN4t", "-M93YILu9RsaLmHJUbuH", "-M93YILvpda7x5GzEhYL", "-M93YILwr6PNOFbglfMZ", "-M93YILy-dqBSBmnasBK", "-M93YILzkiwure65YZDI", "-M93YIM-fX6war4wEn6P", "-M93YIM0QvcF-6UechV2", "-M93YIM1h2CGOrrETXDK", "-M93YIM2eBHh0QfPza_9", "-M93YIM39LS9STL2Wr5S", "-M93YIM5G9gAreJnAw4-", "-M93YIM6LqrGWLSNnS3n", "-M93YIM78t9gXNgXCak9", "-M93YIM8zonUn86aiNYY", "-M93YIM9oQ6XhiLekXQO", "-M93YIMA2fapoKJqN8eQ" ],
+      "movieName" : "Joker"
+    },
+    "-M93ZOiR57_ohntdaIdE" : {
+      "cinemaName" : "Kino Jadran",
+      "dateTimeOfBeginning" : {
+        "date" : 20,
+        "day" : 0,
+        "hours" : 20,
+        "minutes" : 35,
+        "month" : 5,
+        "seconds" : 18,
+        "time" : 61550825718710,
+        "timezoneOffset" : -60,
+        "year" : 2020
+      },
+      "deleted" : false,
+      "id" : "-M93ZOiR57_ohntdaIdE",
+      "idCinema" : "-M93TG37kou3znHHATZP",
+      "idMovie" : "-M93VyXKHHI8DUeBr31T",
+      "is3D" : false,
+      "listOfTicketsIds" : [ "-M93ZQ2IHycZakSHbqrr", "-M93ZQ2_iWy76XnzwAOQ", "-M93ZQ2hw0cN8A-wfLAM", "-M93ZQ2n_cNu21yBJFkB", "-M93ZQ2tKBqQgQ5OYVDz", "-M93ZQ3-RHRknxIBPFVa", "-M93ZQ3A-qfzKDnWJgzz", "-M93ZQ3LMPNo1Es-0445", "-M93ZQ3QxI23x-Id-ZaS", "-M93ZQ3X__86bC3EwBVt", "-M93ZQ3b-47Fxu4qSi1n", "-M93ZQ3f5H571UnIURRg", "-M93ZQ3kps-f6v-0QbZG", "-M93ZQ3oc71DqBqRs2Qj", "-M93ZQ3sxs586kc_8URk", "-M93ZQ3wu-fvH1vIGO9O", "-M93ZQ4-hbxOeCsvVE8C", "-M93ZQ42VeTgUx8fbEWV", "-M93ZQ460DG62dNHP0qS", "-M93ZQ49sAGyD2mQYhZo", "-M93ZQ4Cx6vOMcCgHsfL", "-M93ZQ4FyJ4AJVkYkZVL", "-M93ZQ4IGi604gt7x7NW", "-M93ZQ4K6IM3bwoaGCwV", "-M93ZQ4NxvXNYuT05CtX", "-M93ZQ4QdGtyZJvVQuPN" ],
+      "movieName" : "Forest Gump"
+    },
+    "-M93ZYz1RzDHcdCShKAi" : {
+      "cinemaName" : "Kino Slavica",
+      "dateTimeOfBeginning" : {
+        "date" : 19,
+        "day" : 6,
+        "hours" : 20,
+        "minutes" : 15,
+        "month" : 5,
+        "seconds" : 46,
+        "time" : 61550738146440,
+        "timezoneOffset" : -60,
+        "year" : 2020
+      },
+      "deleted" : false,
+      "id" : "-M93ZYz1RzDHcdCShKAi",
+      "idCinema" : "-M93P6zdch5vyfMDmmIN",
+      "idMovie" : "-M93WFeC_PcgGVAvXByk",
+      "is3D" : false,
+      "listOfTicketsIds" : [ "-M93Za5wyMq3omb8M9Jj", "-M93Za6-ZgtbQBIquwLt", "-M93Za63rH9hMLMiulwC", "-M93Za66cMp_WDHFqnr8", "-M93Za69d3eY5lLKW87z", "-M93Za6DMymiOUJYx5LN", "-M93Za6GF4N2MHub5qxM", "-M93Za6JzTeUoKVpkZWF", "-M93Za6M0WURTVVX-_lG", "-M93Za6POgGz91y2u2Fs", "-M93Za6SczM7kCyRM_VU", "-M93Za6VxnLfzqRPVAly", "-M93Za6Xh9RylsldivCm", "-M93Za6_LD5WzQUS3tyY", "-M93Za6dR9UelMoT8Gpu", "-M93Za6fanEVxX8IC47u", "-M93Za6iT-5hoSh0vORB", "-M93Za6kix8oWNLT-ul8", "-M93Za6n2IGQfPTM0yxD", "-M93Za6q5iQTTMjvPltM", "-M93Za6sbdCexwiSxZXf", "-M93Za6vDUCXv2zFpLg_", "-M93Za6xda6KIKhuEXu1", "-M93Za70LEwIu2fxslpp", "-M93Za72thke9wCePBGb", "-M93Za74Ov7JIdwu2YP8", "-M93Za77GWl42vRZ-_dg", "-M93Za7ALot9CvM10Hs2", "-M93Za7CARTLfC16n8pN", "-M93Za7ERuBLaQ7ccHKy", "-M93Za7GW_paodTtupK0", "-M93Za7JkEl-p8vAM_Kv", "-M93Za7Lsemjp6rllQzl", "-M93Za7NZUraaaAxjstj", "-M93Za7Pp5NN0BM3FVS8", "-M93Za7Ruh36mwxj6_Gi" ],
+      "movieName" : "Parazit"
+    }
+  },
+  "Movies" : {
+    "-M93UmiWgxPBcxKaPswl" : {
+      "description" : "Radnja filma se odvija 1969. godine u Hollywoodu, a glavni lik je glumac veteran Rick Dalton, zvijezda televizijske serije iz 1950-ih, koji je u strahu da će mu karijera početi propadati.",
+      "duration" : 160,
+      "genres" : [ "Akcija", "Biografija", "Drama", "Komedija" ],
+      "id" : "-M93UmiWgxPBcxKaPswl",
+      "name" : "Bilo jednom u Hollywoodu"
+    },
+    "-M93VLVQaj1fYK2aNMvh" : {
+      "description" : "Godine 1981. klaun za dječije zabave i stand-up komičar Arthur Fleck živi s majkom Penny u Gotham Citiyu, te biva napadnut na ulici nakon čega se njegovo već loše psihičko stanje pogoršava.",
+      "duration" : 122,
+      "genres" : [ "Akcija", "Drama", "Horor", "Triler" ],
+      "id" : "-M93VLVQaj1fYK2aNMvh",
+      "name" : "Joker"
+    },
+    "-M93VyXKHHI8DUeBr31T" : {
+      "description" : "Početak radnje se odvija u Alabami 1940-ih, a Forest Gump je mali dječak kojeg odgaja samohrana majka i ima ispod prosječan IQ radi čega je često predmet ismijavanja kod ostale djece. Film se bavi njegovim životnim avanturama.",
+      "duration" : 142,
+      "genres" : [ "Akcija", "Komedija", "Ljubavni", "Drama", "Pustolovni", "Ratni" ],
+      "id" : "-M93VyXKHHI8DUeBr31T",
+      "name" : "Forrest Gump"
+    },
+    "-M93WFeC_PcgGVAvXByk" : {
+      "description" : "Južnokorejska crna komedija iz 2019. godine prepuna neočekivanih iznenađenja.",
+      "duration" : 132,
+      "genres" : [ "Akcija", "Drama", "Horor" ],
+      "id" : "-M93WFeC_PcgGVAvXByk",
+      "name" : "Parazit"
+    }
+  },
+  "Tickets" : {
+    "-M93YAFMmXOrKffEwM6g" : {
+      "id" : "-M93YAFMmXOrKffEwM6g",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 1,
+      "price" : 35,
+      "status" : "RESERVED"
+    },
+    "-M93YAFegt-cv0h5erjE" : {
+      "id" : "-M93YAFegt-cv0h5erjE",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 2,
+      "price" : 35,
+      "status" : "RESERVED"
+    },
+    "-M93YAFlPDm_m1lu7AuU" : {
+      "id" : "-M93YAFlPDm_m1lu7AuU",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 3,
+      "price" : 45,
+      "status" : "RESERVED"
+    },
+    "-M93YAFtdU4O2Wf7fE1Q" : {
+      "id" : "-M93YAFtdU4O2Wf7fE1Q",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 4,
+      "price" : 45,
+      "status" : "RESERVED"
+    },
+    "-M93YAG-BwN0f0ruBuu-" : {
+      "id" : "-M93YAG-BwN0f0ruBuu-",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 5,
+      "price" : 35,
+      "status" : "RESERVED"
+    },
+    "-M93YAG5JAQwJe_Sx6RL" : {
+      "id" : "-M93YAG5JAQwJe_Sx6RL",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 6,
+      "price" : 35,
+      "status" : "RESERVED"
+    },
+    "-M93YAGBifX5rjWCDZKg" : {
+      "id" : "-M93YAGBifX5rjWCDZKg",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 7,
+      "price" : 45,
+      "status" : "RESERVED"
+    },
+    "-M93YAGHuYX0epIZI1Sp" : {
+      "id" : "-M93YAGHuYX0epIZI1Sp",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 8,
+      "price" : 45,
+      "status" : "RESERVED"
+    },
+    "-M93YAGMhYy1sQOuU8LB" : {
+      "id" : "-M93YAGMhYy1sQOuU8LB",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 9,
+      "price" : 35,
+      "status" : "RESERVED"
+    },
+    "-M93YAGShWUVZCiULPu8" : {
+      "id" : "-M93YAGShWUVZCiULPu8",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 10,
+      "price" : 35,
+      "status" : "RESERVED"
+    },
+    "-M93YAGZXH7pT2mSkyY6" : {
+      "id" : "-M93YAGZXH7pT2mSkyY6",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 11,
+      "price" : 45,
+      "status" : "RESERVED"
+    },
+    "-M93YAGei5j1JolXxTTe" : {
+      "id" : "-M93YAGei5j1JolXxTTe",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 12,
+      "price" : 45,
+      "status" : "RESERVED"
+    },
+    "-M93YIJrKi_U1kFBPExI" : {
+      "id" : "-M93YIJrKi_U1kFBPExI",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 1,
+      "price" : 20,
+      "status" : "USED"
+    },
+    "-M93YIJx-BvAbfcW6vFS" : {
+      "id" : "-M93YIJx-BvAbfcW6vFS",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 2,
+      "price" : 20,
+      "status" : "RESERVED"
+    },
+    "-M93YIK26zen2LwV1Aug" : {
+      "id" : "-M93YIK26zen2LwV1Aug",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 3,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIK7WeQb90tUgTrB" : {
+      "id" : "-M93YIK7WeQb90tUgTrB",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 4,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKCL2eJjMEHaDbd" : {
+      "id" : "-M93YIKCL2eJjMEHaDbd",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 5,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKI2lA7n0eMs0vs" : {
+      "id" : "-M93YIKI2lA7n0eMs0vs",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 6,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKMK-LZhPgabh73" : {
+      "id" : "-M93YIKMK-LZhPgabh73",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 7,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKRc0s6xS1Dg052" : {
+      "id" : "-M93YIKRc0s6xS1Dg052",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 8,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKUSJpsySIAwSgc" : {
+      "id" : "-M93YIKUSJpsySIAwSgc",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 9,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKYf5ex9WdBrOPw" : {
+      "id" : "-M93YIKYf5ex9WdBrOPw",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 10,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKcL97_K_0QYqDR" : {
+      "id" : "-M93YIKcL97_K_0QYqDR",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 11,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKfV7GzXBPOy_o0" : {
+      "id" : "-M93YIKfV7GzXBPOy_o0",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 12,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKjOJOY3yDKIm-f" : {
+      "id" : "-M93YIKjOJOY3yDKIm-f",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 13,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKn5eWQYOSepoH2" : {
+      "id" : "-M93YIKn5eWQYOSepoH2",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 14,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKrZYjYCUjk2KUj" : {
+      "id" : "-M93YIKrZYjYCUjk2KUj",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 15,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKuyU7FRVrQ0Y3I" : {
+      "id" : "-M93YIKuyU7FRVrQ0Y3I",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 16,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIKx_UKZpiH99v6f" : {
+      "id" : "-M93YIKx_UKZpiH99v6f",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 17,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIL0KHnbeIpv1B-1" : {
+      "id" : "-M93YIL0KHnbeIpv1B-1",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 18,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIL3gdIXevajKxeO" : {
+      "id" : "-M93YIL3gdIXevajKxeO",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 19,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIL517gTRKv6fiWA" : {
+      "id" : "-M93YIL517gTRKv6fiWA",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 20,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIL8PmdipAw5_WzW" : {
+      "id" : "-M93YIL8PmdipAw5_WzW",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 21,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILB6XD0S7JmodUi" : {
+      "id" : "-M93YILB6XD0S7JmodUi",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 22,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILD9aoFVrKwp9Ul" : {
+      "id" : "-M93YILD9aoFVrKwp9Ul",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 23,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILGTWhhh3RVtjqT" : {
+      "id" : "-M93YILGTWhhh3RVtjqT",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 24,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILI4nknkPXk0YMu" : {
+      "id" : "-M93YILI4nknkPXk0YMu",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 25,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILKfEcVlpAMnjjX" : {
+      "id" : "-M93YILKfEcVlpAMnjjX",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 26,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILMUiA7sN1jyjqD" : {
+      "id" : "-M93YILMUiA7sN1jyjqD",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 27,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILO7l118mZzgfAz" : {
+      "id" : "-M93YILO7l118mZzgfAz",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 28,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILQ92sbavUD6IxH" : {
+      "id" : "-M93YILQ92sbavUD6IxH",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 29,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILT9efBe15qd3Ea" : {
+      "id" : "-M93YILT9efBe15qd3Ea",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 30,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILVKaKLvBakL2Ip" : {
+      "id" : "-M93YILVKaKLvBakL2Ip",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 31,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILXX9GkcxP37F0K" : {
+      "id" : "-M93YILXX9GkcxP37F0K",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 32,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILZD1Ax3p6rUIww" : {
+      "id" : "-M93YILZD1Ax3p6rUIww",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 33,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILaB_WPtn1PDeNt" : {
+      "id" : "-M93YILaB_WPtn1PDeNt",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 34,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILcK6oLNQQI68wo" : {
+      "id" : "-M93YILcK6oLNQQI68wo",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 35,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILdM1_pima3T5d6" : {
+      "id" : "-M93YILdM1_pima3T5d6",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 36,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILf1xyrpEtIFf9j" : {
+      "id" : "-M93YILf1xyrpEtIFf9j",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 37,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILgkORGewdKcmSG" : {
+      "id" : "-M93YILgkORGewdKcmSG",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 38,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILhiXoy7iR6nSrQ" : {
+      "id" : "-M93YILhiXoy7iR6nSrQ",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 39,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILi5Qap02I3Hii8" : {
+      "id" : "-M93YILi5Qap02I3Hii8",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 40,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILkUXfhR5-DnkzY" : {
+      "id" : "-M93YILkUXfhR5-DnkzY",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 41,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILl4fseURwkcxeT" : {
+      "id" : "-M93YILl4fseURwkcxeT",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 42,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILnhUfHOyCte1VN" : {
+      "id" : "-M93YILnhUfHOyCte1VN",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 43,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILo28GV64fRZSf1" : {
+      "id" : "-M93YILo28GV64fRZSf1",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 44,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILp0kiEhvKS6Cqx" : {
+      "id" : "-M93YILp0kiEhvKS6Cqx",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 45,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILqkI4PsC9nATz_" : {
+      "id" : "-M93YILqkI4PsC9nATz_",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 46,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILrfHB4v0d9XbsP" : {
+      "id" : "-M93YILrfHB4v0d9XbsP",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 47,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILtRDZ0-wg2XN4t" : {
+      "id" : "-M93YILtRDZ0-wg2XN4t",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 48,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILu9RsaLmHJUbuH" : {
+      "id" : "-M93YILu9RsaLmHJUbuH",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 49,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILvpda7x5GzEhYL" : {
+      "id" : "-M93YILvpda7x5GzEhYL",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 50,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILwr6PNOFbglfMZ" : {
+      "id" : "-M93YILwr6PNOFbglfMZ",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 51,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILy-dqBSBmnasBK" : {
+      "id" : "-M93YILy-dqBSBmnasBK",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 52,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YILzkiwure65YZDI" : {
+      "id" : "-M93YILzkiwure65YZDI",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 53,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM-fX6war4wEn6P" : {
+      "id" : "-M93YIM-fX6war4wEn6P",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 54,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM0QvcF-6UechV2" : {
+      "id" : "-M93YIM0QvcF-6UechV2",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 55,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM1h2CGOrrETXDK" : {
+      "id" : "-M93YIM1h2CGOrrETXDK",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 56,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM2eBHh0QfPza_9" : {
+      "id" : "-M93YIM2eBHh0QfPza_9",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 57,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM39LS9STL2Wr5S" : {
+      "id" : "-M93YIM39LS9STL2Wr5S",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 58,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM5G9gAreJnAw4-" : {
+      "id" : "-M93YIM5G9gAreJnAw4-",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 59,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM6LqrGWLSNnS3n" : {
+      "id" : "-M93YIM6LqrGWLSNnS3n",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 60,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM78t9gXNgXCak9" : {
+      "id" : "-M93YIM78t9gXNgXCak9",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 61,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM8zonUn86aiNYY" : {
+      "id" : "-M93YIM8zonUn86aiNYY",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 62,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIM9oQ6XhiLekXQO" : {
+      "id" : "-M93YIM9oQ6XhiLekXQO",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 63,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93YIMA2fapoKJqN8eQ" : {
+      "id" : "-M93YIMA2fapoKJqN8eQ",
+      "idMovieDisplay" : "-M93YGOuEz3xqx0fWwyg",
+      "posotion" : 64,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ2IHycZakSHbqrr" : {
+      "id" : "-M93ZQ2IHycZakSHbqrr",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 1,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ2_iWy76XnzwAOQ" : {
+      "id" : "-M93ZQ2_iWy76XnzwAOQ",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 2,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ2hw0cN8A-wfLAM" : {
+      "id" : "-M93ZQ2hw0cN8A-wfLAM",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 3,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ2n_cNu21yBJFkB" : {
+      "id" : "-M93ZQ2n_cNu21yBJFkB",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 4,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ2tKBqQgQ5OYVDz" : {
+      "id" : "-M93ZQ2tKBqQgQ5OYVDz",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 5,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3-RHRknxIBPFVa" : {
+      "id" : "-M93ZQ3-RHRknxIBPFVa",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 6,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3A-qfzKDnWJgzz" : {
+      "id" : "-M93ZQ3A-qfzKDnWJgzz",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 7,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3LMPNo1Es-0445" : {
+      "id" : "-M93ZQ3LMPNo1Es-0445",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 8,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3QxI23x-Id-ZaS" : {
+      "id" : "-M93ZQ3QxI23x-Id-ZaS",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 9,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3X__86bC3EwBVt" : {
+      "id" : "-M93ZQ3X__86bC3EwBVt",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 10,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3b-47Fxu4qSi1n" : {
+      "id" : "-M93ZQ3b-47Fxu4qSi1n",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 11,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3f5H571UnIURRg" : {
+      "id" : "-M93ZQ3f5H571UnIURRg",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 12,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3kps-f6v-0QbZG" : {
+      "id" : "-M93ZQ3kps-f6v-0QbZG",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 13,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3oc71DqBqRs2Qj" : {
+      "id" : "-M93ZQ3oc71DqBqRs2Qj",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 14,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3sxs586kc_8URk" : {
+      "id" : "-M93ZQ3sxs586kc_8URk",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 15,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ3wu-fvH1vIGO9O" : {
+      "id" : "-M93ZQ3wu-fvH1vIGO9O",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 16,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ4-hbxOeCsvVE8C" : {
+      "id" : "-M93ZQ4-hbxOeCsvVE8C",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 17,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ42VeTgUx8fbEWV" : {
+      "id" : "-M93ZQ42VeTgUx8fbEWV",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 18,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ460DG62dNHP0qS" : {
+      "id" : "-M93ZQ460DG62dNHP0qS",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 19,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ49sAGyD2mQYhZo" : {
+      "id" : "-M93ZQ49sAGyD2mQYhZo",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 20,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ4Cx6vOMcCgHsfL" : {
+      "id" : "-M93ZQ4Cx6vOMcCgHsfL",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 21,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ4FyJ4AJVkYkZVL" : {
+      "id" : "-M93ZQ4FyJ4AJVkYkZVL",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 22,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ4IGi604gt7x7NW" : {
+      "id" : "-M93ZQ4IGi604gt7x7NW",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 23,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ4K6IM3bwoaGCwV" : {
+      "id" : "-M93ZQ4K6IM3bwoaGCwV",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 24,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ4NxvXNYuT05CtX" : {
+      "id" : "-M93ZQ4NxvXNYuT05CtX",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 25,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93ZQ4QdGtyZJvVQuPN" : {
+      "id" : "-M93ZQ4QdGtyZJvVQuPN",
+      "idMovieDisplay" : "-M93ZOiR57_ohntdaIdE",
+      "posotion" : 26,
+      "price" : 20,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za5wyMq3omb8M9Jj" : {
+      "id" : "-M93Za5wyMq3omb8M9Jj",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 1,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6-ZgtbQBIquwLt" : {
+      "id" : "-M93Za6-ZgtbQBIquwLt",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 2,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za63rH9hMLMiulwC" : {
+      "id" : "-M93Za63rH9hMLMiulwC",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 3,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za66cMp_WDHFqnr8" : {
+      "id" : "-M93Za66cMp_WDHFqnr8",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 4,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za69d3eY5lLKW87z" : {
+      "id" : "-M93Za69d3eY5lLKW87z",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 5,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6DMymiOUJYx5LN" : {
+      "id" : "-M93Za6DMymiOUJYx5LN",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 6,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6GF4N2MHub5qxM" : {
+      "id" : "-M93Za6GF4N2MHub5qxM",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 7,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6JzTeUoKVpkZWF" : {
+      "id" : "-M93Za6JzTeUoKVpkZWF",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 8,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6M0WURTVVX-_lG" : {
+      "id" : "-M93Za6M0WURTVVX-_lG",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 9,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6POgGz91y2u2Fs" : {
+      "id" : "-M93Za6POgGz91y2u2Fs",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 10,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6SczM7kCyRM_VU" : {
+      "id" : "-M93Za6SczM7kCyRM_VU",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 11,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6VxnLfzqRPVAly" : {
+      "id" : "-M93Za6VxnLfzqRPVAly",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 12,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6Xh9RylsldivCm" : {
+      "id" : "-M93Za6Xh9RylsldivCm",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 13,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6_LD5WzQUS3tyY" : {
+      "id" : "-M93Za6_LD5WzQUS3tyY",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 14,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6dR9UelMoT8Gpu" : {
+      "id" : "-M93Za6dR9UelMoT8Gpu",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 15,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6fanEVxX8IC47u" : {
+      "id" : "-M93Za6fanEVxX8IC47u",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 16,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6iT-5hoSh0vORB" : {
+      "id" : "-M93Za6iT-5hoSh0vORB",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 17,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6kix8oWNLT-ul8" : {
+      "id" : "-M93Za6kix8oWNLT-ul8",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 18,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6n2IGQfPTM0yxD" : {
+      "id" : "-M93Za6n2IGQfPTM0yxD",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 19,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6q5iQTTMjvPltM" : {
+      "id" : "-M93Za6q5iQTTMjvPltM",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 20,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6sbdCexwiSxZXf" : {
+      "id" : "-M93Za6sbdCexwiSxZXf",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 21,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6vDUCXv2zFpLg_" : {
+      "id" : "-M93Za6vDUCXv2zFpLg_",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 22,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za6xda6KIKhuEXu1" : {
+      "id" : "-M93Za6xda6KIKhuEXu1",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 23,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za70LEwIu2fxslpp" : {
+      "id" : "-M93Za70LEwIu2fxslpp",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 24,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za72thke9wCePBGb" : {
+      "id" : "-M93Za72thke9wCePBGb",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 25,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za74Ov7JIdwu2YP8" : {
+      "id" : "-M93Za74Ov7JIdwu2YP8",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 26,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za77GWl42vRZ-_dg" : {
+      "id" : "-M93Za77GWl42vRZ-_dg",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 27,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7ALot9CvM10Hs2" : {
+      "id" : "-M93Za7ALot9CvM10Hs2",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 28,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7CARTLfC16n8pN" : {
+      "id" : "-M93Za7CARTLfC16n8pN",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 29,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7ERuBLaQ7ccHKy" : {
+      "id" : "-M93Za7ERuBLaQ7ccHKy",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 30,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7GW_paodTtupK0" : {
+      "id" : "-M93Za7GW_paodTtupK0",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 31,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7JkEl-p8vAM_Kv" : {
+      "id" : "-M93Za7JkEl-p8vAM_Kv",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 32,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7Lsemjp6rllQzl" : {
+      "id" : "-M93Za7Lsemjp6rllQzl",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 33,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7NZUraaaAxjstj" : {
+      "id" : "-M93Za7NZUraaaAxjstj",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 34,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7Pp5NN0BM3FVS8" : {
+      "id" : "-M93Za7Pp5NN0BM3FVS8",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 35,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93Za7Ruh36mwxj6_Gi" : {
+      "id" : "-M93Za7Ruh36mwxj6_Gi",
+      "idMovieDisplay" : "-M93ZYz1RzDHcdCShKAi",
+      "posotion" : 36,
+      "price" : 15,
+      "status" : "AVAILABLE"
+    },
+    "-M93aqm5rctFJWLxlbqI" : {
+      "id" : "-M93aqm5rctFJWLxlbqI",
+      "idMovieDisplay" : "-M93Xu-sAE8wpBiBvjkE",
+      "posotion" : 10,
+      "price" : 35,
+      "status" : "CANCELED"
+    }
+  },
+  "Users" : {
+    "-M93_PqpAgmqB54T7qPx" : {
+      "email" : "nikola.ursic@hotmail.com",
+      "id" : "-M93_PqpAgmqB54T7qPx",
+      "listOfTicketsIds" : [ "-M93YAFMmXOrKffEwM6g", "-M93YAFegt-cv0h5erjE", "-M93YIJrKi_U1kFBPExI", "-M93YIJx-BvAbfcW6vFS" ],
+      "passwordInHashFormat" : "5f4dcc3b5aa765d61d8327deb882cf99",
+      "username" : "nursic"
+    },
+    "-M94Py8wUCeiVNF9gyu-" : {
+      "email" : "marko.sopcic@gmail.com",
+      "id" : "-M94Py8wUCeiVNF9gyu-",
+      "listOfTicketsIds" : [ "-M93YAG5JAQwJe_Sx6RL", "-M93YAGShWUVZCiULPu8", "-M93YAG-BwN0f0ruBuu-", "-M93YAGZXH7pT2mSkyY6", "-M93YAGBifX5rjWCDZKg", "-M93YAFlPDm_m1lu7AuU", "-M93YAFtdU4O2Wf7fE1Q", "-M93YAGHuYX0epIZI1Sp", "-M93YAGei5j1JolXxTTe" ],
+      "passwordInHashFormat" : "25d55ad283aa400af464c76d713c07ad",
+      "username" : "Markicak"
+    }
+  }
+}

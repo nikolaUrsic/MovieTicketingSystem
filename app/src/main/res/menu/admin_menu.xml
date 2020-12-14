@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/movie_display"
+            android:icon="@drawable/ic_movie_display"
+            android:title="Projekcije" />
+
+        <item
+            android:id="@+id/movie"
+            android:icon="@drawable/ic_movie"
+            android:title="Filmovi" />
+
+        <item
+            android:id="@+id/employees"
+            android:icon="@drawable/ic_employees"
+            android:title="Zaposlenici" />
+
+        <item
+            android:id="@+id/cinema"
+            android:icon="@drawable/ic_cinema"
+            android:title="Dvorane" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Postavke" />
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/ic_sign_out"
+                android:title="Odjava" />
+        </menu>
+    </item>
+
+</menu>
